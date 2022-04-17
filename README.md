@@ -6,6 +6,8 @@
 
 [![CI](https://github.com/emacs-eask/flycheck-eask/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-eask/flycheck-eask/actions/workflows/test.yml)
 
+<img alt="screenshot" src="./etc/screenshot.png" width="60%"/>
+
 ## 💾 Installation
 
 In your `Eask` file:
