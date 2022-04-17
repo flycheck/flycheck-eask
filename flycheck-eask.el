@@ -39,5 +39,25 @@
   :group 'flycheck
   :link '(url-link :tag "Github" "https://github.com/emacs-eask/flycheck-eask"))
 
+(flycheck-define-checker eask
+  "A linter for textlint."
+  :command ("eask" "check-eask")
+  :error-patterns
+  ((error line-start (file-name) ":" line ":" column " Error: "
+          (message (one-or-more not-newline)
+                   (zero-or-more "\n" (any " ") (one-or-more not-newline)))
+          line-end)
+   (warning line-start (file-name) ":" line ":" column " Warning: "
+            (message (one-or-more not-newline)
+                     (zero-or-more "\n" (any " ") (one-or-more not-newline)))
+            line-end))
+  :modes (eask-mode))
+
+;;;###autoload
+(defun flycheck-eask-setup ()
+  "Setup flycheck-package."
+  (interactive)
+  (add-to-list 'flycheck-checkers 'eask))
+
 (provide 'flycheck-eask)
 ;;; flycheck-eask.el ends here
