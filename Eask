@@ -1,6 +1,6 @@
 (package "flycheck-eask"
          "0.1.0"
-         "Eask support in Flycheck ")
+         "Eask support in Flycheck")
 
 (package-file "flycheck-eask.el")
 
