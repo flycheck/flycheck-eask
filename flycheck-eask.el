@@ -40,7 +40,7 @@
   :link '(url-link :tag "Github" "https://github.com/emacs-eask/flycheck-eask"))
 
 (flycheck-define-checker eask
-  "A linter for textlint."
+  "A linter for Eask-file."
   :command ("eask" "check-eask")
   :error-patterns
   ((error line-start (file-name) ":" line ":" column " Error: "
