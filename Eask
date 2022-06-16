@@ -2,6 +2,9 @@
          "0.1.0"
          "Eask support in Flycheck")
 
+(website-url "https://github.com/emacs-eask/flycheck-eask")
+(keywords "eask")
+
 (package-file "flycheck-eask.el")
 
 (source "gnu")
