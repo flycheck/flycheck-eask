@@ -6,7 +6,7 @@
 ;; URL: https://github.com/emacs-eask/flycheck-eask
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "26.1") (flycheck "0.14"))
-;; Keywords: eask
+;; Keywords: lisp eask
 
 ;; This file is not part of GNU Emacs.
 
