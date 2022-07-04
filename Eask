@@ -3,7 +3,7 @@
          "Eask support in Flycheck")
 
 (website-url "https://github.com/emacs-eask/flycheck-eask")
-(keywords "eask")
+(keywords "lisp" "eask")
 
 (package-file "flycheck-eask.el")
 
