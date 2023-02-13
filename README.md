@@ -5,7 +5,7 @@
 # flycheck-eask
 > Eask support in Flycheck
 
-[![CI](https://github.com/emacs-eask/flycheck-eask/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-eask/flycheck-eask/actions/workflows/test.yml)
+[![CI](https://github.com/flycheck/flycheck-eask/actions/workflows/test.yml/badge.svg)](https://github.com/flycheck/flycheck-eask/actions/workflows/test.yml)
 
 <img alt="screenshot" src="./etc/screenshot.png" width="60%"/>
 
