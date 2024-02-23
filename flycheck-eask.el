@@ -36,7 +36,7 @@
   "Eask support for Flycheck."
   :prefix "flycheck-eask-"
   :group 'flycheck
-  :link '(url-link :tag "Github" "https://github.com/emacs-eask/flycheck-eask"))
+  :link '(url-link :tag "Github" "https://github.com/flycheck/flycheck-eask"))
 
 (flycheck-def-args-var flycheck-eask-args (eask)
   :package-version '(flycheck-eask . "0.1.0"))
