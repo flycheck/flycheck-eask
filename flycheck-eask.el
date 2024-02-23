@@ -70,7 +70,7 @@ the BUFFER that was checked respectively."
 
 (flycheck-define-checker eask
   "A linter for Eask-file."
-  :command ("eask" "check-eask" "--json"
+  :command ("eask" "analyze" "--json"
             (eval flycheck-eask-args)
             source)
   :error-parser flycheck-eask-parse-lint
