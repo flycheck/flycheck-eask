@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "flycheck-eask"
          "0.1.0"
          "Eask support in Flycheck")
